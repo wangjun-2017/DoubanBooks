@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2633D22355CE310011A161 /* DataViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2633D12355CE310011A161 /* DataViewModelDelegate.swift */; };
+		BA2633D42355CF250011A161 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2633D32355CF250011A161 /* Repository.swift */; };
+		BA77982E2353FC080063098E /* CategoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77982D2353FC080063098E /* CategoryFactory.swift */; };
+		BA77983A23542B9A0063098E /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77983923542B9A0063098E /* BookRepository.swift */; };
+		BA77983C23542C0E0063098E /* BookFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77983B23542C0E0063098E /* BookFactory.swift */; };
 		BA87F588235152AB00CD8995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F587235152AB00CD8995 /* AppDelegate.swift */; };
 		BA87F58A235152AB00CD8995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F589235152AB00CD8995 /* ViewController.swift */; };
 		BA87F58D235152AB00CD8995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA87F58B235152AB00CD8995 /* Main.storyboard */; };
-		BA87F590235152AB00CD8995 /* DoubanBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA87F58E235152AB00CD8995 /* DoubanBooks.xcdatamodeld */; };
 		BA87F592235152B600CD8995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA87F591235152B600CD8995 /* Assets.xcassets */; };
 		BA87F595235152B600CD8995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA87F593235152B600CD8995 /* LaunchScreen.storyboard */; };
 		BA87F5A0235152B700CD8995 /* DoubanBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F59F235152B700CD8995 /* DoubanBooksTests.swift */; };
+		BA87F5AF2351545F00CD8995 /* DoubanBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5AD2351545F00CD8995 /* DoubanBooks.xcdatamodeld */; };
+		BA87F5BB23516B4C00CD8995 /* VMCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5BA23516B4C00CD8995 /* VMCategory.swift */; };
+		BA87F5C02351734700CD8995 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5BF2351734700CD8995 /* Books.swift */; };
+		BA87F5C4235175DD00CD8995 /* DoubanREpository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5C3235175DD00CD8995 /* DoubanREpository.swift */; };
+		BA87F5C62351818500CD8995 /* DateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5C52351818500CD8995 /* DateError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +36,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2633D12355CE310011A161 /* DataViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModelDelegate.swift; sourceTree = "<group>"; };
+		BA2633D32355CF250011A161 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BA77982D2353FC080063098E /* CategoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFactory.swift; sourceTree = "<group>"; };
+		BA77983923542B9A0063098E /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
+		BA77983B23542C0E0063098E /* BookFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFactory.swift; sourceTree = "<group>"; };
 		BA87F584235152AB00CD8995 /* DoubanBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA87F587235152AB00CD8995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA87F589235152AB00CD8995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA87F58C235152AB00CD8995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA87F58F235152AB00CD8995 /* DoubanBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoubanBooks.xcdatamodel; sourceTree = "<group>"; };
 		BA87F591235152B600CD8995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA87F594235152B600CD8995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA87F596235152B600CD8995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA87F59B235152B700CD8995 /* DoubanBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA87F59F235152B700CD8995 /* DoubanBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanBooksTests.swift; sourceTree = "<group>"; };
 		BA87F5A1235152B700CD8995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA87F5AE2351545F00CD8995 /* DoubanBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoubanBooks.xcdatamodel; sourceTree = "<group>"; };
+		BA87F5B0235157C200CD8995 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BA87F5B1235157C200CD8995 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA87F5B2235157C200CD8995 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BA87F5B3235157C200CD8995 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA87F5B823515AC000CD8995 /* DoubanBooks 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DoubanBooks 2.xcdatamodel"; sourceTree = "<group>"; };
+		BA87F5BA23516B4C00CD8995 /* VMCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMCategory.swift; sourceTree = "<group>"; };
+		BA87F5BF2351734700CD8995 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		BA87F5C3235175DD00CD8995 /* DoubanREpository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanREpository.swift; sourceTree = "<group>"; };
+		BA87F5C52351818500CD8995 /* DateError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +81,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA2633CC2355AC350011A161 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA2633CD2355ADD90011A161 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA2633CE2355ADE70011A161 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BA2633CF2355AE050011A161 /* Persists */ = {
+			isa = PBXGroup;
+			children = (
+				BA87F5C3235175DD00CD8995 /* DoubanREpository.swift */,
+				BA77983923542B9A0063098E /* BookRepository.swift */,
+				BA87F5C52351818500CD8995 /* DateError.swift */,
+				BA2633D12355CE310011A161 /* DataViewModelDelegate.swift */,
+				BA2633D32355CF250011A161 /* Repository.swift */,
+			);
+			path = Persists;
+			sourceTree = "<group>";
+		};
+		BA2633D02355AE4A0011A161 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		BA87F57B235152AB00CD8995 = {
 			isa = PBXGroup;
 			children = (
+				BA87F5B0235157C200CD8995 /* Book+CoreDataClass.swift */,
+				BA87F5B1235157C200CD8995 /* Book+CoreDataProperties.swift */,
+				BA87F5B2235157C200CD8995 /* Category+CoreDataClass.swift */,
+				BA87F5B3235157C200CD8995 /* Category+CoreDataProperties.swift */,
+				BA87F5AD2351545F00CD8995 /* DoubanBooks.xcdatamodeld */,
 				BA87F586235152AB00CD8995 /* DoubanBooks */,
 				BA87F59E235152B700CD8995 /* DoubanBooksTests */,
 				BA87F585235152AB00CD8995 /* Products */,
@@ -79,13 +147,18 @@
 		BA87F586235152AB00CD8995 /* DoubanBooks */ = {
 			isa = PBXGroup;
 			children = (
+				BA2633CD2355ADD90011A161 /* Controllers */,
+				BA2633CE2355ADE70011A161 /* Network */,
+				BA2633CF2355AE050011A161 /* Persists */,
+				BA2633CC2355AC350011A161 /* Views */,
+				BA87F5BC23516E2300CD8995 /* Models */,
+				BA2633D02355AE4A0011A161 /* Utils */,
 				BA87F587235152AB00CD8995 /* AppDelegate.swift */,
 				BA87F589235152AB00CD8995 /* ViewController.swift */,
 				BA87F58B235152AB00CD8995 /* Main.storyboard */,
 				BA87F591235152B600CD8995 /* Assets.xcassets */,
 				BA87F593235152B600CD8995 /* LaunchScreen.storyboard */,
 				BA87F596235152B600CD8995 /* Info.plist */,
-				BA87F58E235152AB00CD8995 /* DoubanBooks.xcdatamodeld */,
 			);
 			path = DoubanBooks;
 			sourceTree = "<group>";
@@ -97,6 +170,17 @@
 				BA87F5A1235152B700CD8995 /* Info.plist */,
 			);
 			path = DoubanBooksTests;
+			sourceTree = "<group>";
+		};
+		BA87F5BC23516E2300CD8995 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA87F5BA23516B4C00CD8995 /* VMCategory.swift */,
+				BA87F5BF2351734700CD8995 /* Books.swift */,
+				BA77982D2353FC080063098E /* CategoryFactory.swift */,
+				BA77983B23542C0E0063098E /* BookFactory.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +284,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA87F5C4235175DD00CD8995 /* DoubanREpository.swift in Sources */,
+				BA87F5BB23516B4C00CD8995 /* VMCategory.swift in Sources */,
+				BA77983A23542B9A0063098E /* BookRepository.swift in Sources */,
+				BA77983C23542C0E0063098E /* BookFactory.swift in Sources */,
 				BA87F58A235152AB00CD8995 /* ViewController.swift in Sources */,
-				BA87F590235152AB00CD8995 /* DoubanBooks.xcdatamodeld in Sources */,
 				BA87F588235152AB00CD8995 /* AppDelegate.swift in Sources */,
+				BA87F5AF2351545F00CD8995 /* DoubanBooks.xcdatamodeld in Sources */,
+				BA87F5C62351818500CD8995 /* DateError.swift in Sources */,
+				BA2633D22355CE310011A161 /* DataViewModelDelegate.swift in Sources */,
+				BA77982E2353FC080063098E /* CategoryFactory.swift in Sources */,
+				BA87F5C02351734700CD8995 /* Books.swift in Sources */,
+				BA2633D42355CF250011A161 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,12 +560,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BA87F58E235152AB00CD8995 /* DoubanBooks.xcdatamodeld */ = {
+		BA87F5AD2351545F00CD8995 /* DoubanBooks.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BA87F58F235152AB00CD8995 /* DoubanBooks.xcdatamodel */,
+				BA87F5B823515AC000CD8995 /* DoubanBooks 2.xcdatamodel */,
+				BA87F5AE2351545F00CD8995 /* DoubanBooks.xcdatamodel */,
 			);
-			currentVersion = BA87F58F235152AB00CD8995 /* DoubanBooks.xcdatamodel */;
+			currentVersion = BA87F5B823515AC000CD8995 /* DoubanBooks 2.xcdatamodel */;
 			path = DoubanBooks.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
