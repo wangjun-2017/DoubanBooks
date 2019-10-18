@@ -23,6 +23,7 @@
 		BA87F5C02351734700CD8995 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5BF2351734700CD8995 /* Books.swift */; };
 		BA87F5C4235175DD00CD8995 /* DoubanREpository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5C3235175DD00CD8995 /* DoubanREpository.swift */; };
 		BA87F5C62351818500CD8995 /* DateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87F5C52351818500CD8995 /* DateError.swift */; };
+		BAED8DC92359517F001B7CB9 /* File22.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8DC82359517F001B7CB9 /* File22.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BA87F5BF2351734700CD8995 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		BA87F5C3235175DD00CD8995 /* DoubanREpository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanREpository.swift; sourceTree = "<group>"; };
 		BA87F5C52351818500CD8995 /* DateError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateError.swift; sourceTree = "<group>"; };
+		BAED8DC82359517F001B7CB9 /* File22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File22.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		BA2633CC2355AC350011A161 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BAED8DC82359517F001B7CB9 /* File22.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAED8DC92359517F001B7CB9 /* File22.swift in Sources */,
 				BA87F5C4235175DD00CD8995 /* DoubanREpository.swift in Sources */,
 				BA87F5BB23516B4C00CD8995 /* VMCategory.swift in Sources */,
 				BA77983A23542B9A0063098E /* BookRepository.swift in Sources */,
